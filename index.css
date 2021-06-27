@@ -1,0 +1,32 @@
+#navbar {
+  display: inline-block;
+  flex-grow: 1;
+  min-width: auto;
+  height: 48px;
+  z-index: 986;
+}
+
+.nav-links {
+  float: right;
+  padding-left: 32px;
+  box-sizing: border-box;
+  height: 48px;
+  line-height: normal;
+  justify-content: flex-end;
+  white-space: nowrap;
+  -moz-box-align: center;
+  align-items: center;
+}
+
+.center-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#center-image {
+  max-height: 92px;
+  position: relative;
+  height: 100%;
+  margin-top: auto;
+}
