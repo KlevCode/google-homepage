@@ -50,6 +50,47 @@
   align-items: center;
 }
 
+.footbar {
+  background: #f2f2f2;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
+.country {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: rgba(0, 0, 0, .54);
+}
 
+.bottom-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, .54);
+}
 
+.bottom-page-left{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bottom-page-right {
+  display: flex;
+  flex-wrap: flex;
+  justify-content: space-between;
+}
+
+.bottom-links {
+  color: #70757a;
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
+}
